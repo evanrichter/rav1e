@@ -1,0 +1,7 @@
+project: rav1e
+target: encode
+
+cmds:
+  - cmd: /encode
+  - cmd: /encode_no_inst @@
+    libfuzzer: false

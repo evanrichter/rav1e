@@ -1,0 +1,7 @@
+project: rav1e
+target: construct-context
+
+cmds:
+  - cmd: /construct_context
+  - cmd: /construct_context_no_inst @@
+    libfuzzer: false
